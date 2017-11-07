@@ -33,8 +33,8 @@ class Formhandler{
       //     });
       console.log(data);
       fn(data);
-      // this.reset();
-      // this.elements[0].focus();
+      (this.$formElement)[0].reset();
+      (this.$formElement)[0].elements[0].focus();
     });
   }
 }
